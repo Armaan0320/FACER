@@ -31,3 +31,6 @@ If this happens then you'll need to install Visual Studio Community - and select
 When the program is launched, a GUI window will appear and then after clicking on the 'Start' button. It will start the camera stream and display a live feed on the screen. The system will recognize any known face that appears in the camera frame and add its name and timestamp to the attendance record.
 
 To add a new person to the system, click on the "New Face Profile" button and a camera stream will pop up. You can use 'space' your image. After that a text box will appear, type your name in it and the system will capture new face profile and save it in the database.
+
+### **License**
+This project is licensed under the MIT License.
