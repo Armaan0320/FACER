@@ -4,6 +4,7 @@
 This is a Python project that uses OpenCV, face_recognition, tkinter, csv, numpy, datetime, os and customtkinter libraries to implement face-recognition based attendance system. The system detects faces in real-time from your system's camera, matches them with known faces in a database, and maintains an attendance record with date and time stamp of the recognized faces.
 
 **Prerequisities**
+
 The following Python libraries must be installed to run this project:
 - OpenCV
 - face_recognition
