@@ -84,7 +84,7 @@ def start_recognition():
 # GUI starts here
 root = Tk()
 root.title('FACER')     #sets title to FACER
-root.iconbitmap(r'C:/Users/Administrator/Desktop/face attendence system/gui/title facer.ico')   #sets GUI applicaion icon to this path image
+root.iconbitmap(r'gui/title facer.ico')   #sets GUI applicaion icon to this path image
 
 # Get screen width and height
 screen_width = root.winfo_screenwidth()
@@ -103,7 +103,7 @@ canvas=Canvas(root, width=window_width, height=window_height)
 canvas.pack(fill=BOTH, expand=YES)
 
 #Load the background image
-background_image=PhotoImage(file="C:/Users/Administrator/Desktop/face attendence system/gui/22.png")
+background_image=PhotoImage(file="gui/22.png")
 canvas.create_image(0,0, anchor=NW, image=background_image)
 #define our images
 
