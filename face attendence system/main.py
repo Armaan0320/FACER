@@ -21,21 +21,21 @@ from PIL import Image, ImageTk
         
 
 # Define the list of known faces and their encodings
-Steve_image = face_recognition.load_image_file("photos/Steve.jpg")
-Steve_encoding = face_recognition.face_encodings(Steve_image)[0]
-                                        
 armaan_image = face_recognition.load_image_file("photos/armaan.jpg")
 armaan_encoding = face_recognition.face_encodings(armaan_image)[0]
+                                        
+henry_image = face_recognition.load_image_file("photos/henry.jpg")
+henry_encoding = face_recognition.face_encodings(henry_image)[0]
 
-monalisa_image = face_recognition.load_image_file("photos/monalisa.jpg")
-monalisa_encoding = face_recognition.face_encodings(monalisa_image)[0]
+robert_image = face_recognition.load_image_file("photos/ben.jpg")
+robert_encoding = face_recognition.face_encodings(robert_image)[0]
 
-tesla_image = face_recognition.load_image_file("photos/tesla.jpg")
-tesla_encoding = face_recognition.face_encodings(tesla_image)[0]
+ben_image = face_recognition.load_image_file("photos/robert.jpg")
+ben_encoding = face_recognition.face_encodings(robert_image)[0]
 
-known_face_encoding = [    Steve_encoding,    armaan_encoding,     monalisa_encoding,    tesla_encoding,]
+known_face_encoding = [ armaan_encoding, henry_encoding, ben_encoding, robert_encoding,]
 
-known_faces_names = [    "Steve ",    "armaan",     "monalisa",    "tesla"]
+known_faces_names = ["armaan ", "henry", "ben", "robert"]
 
 students = known_faces_names.copy()
 
